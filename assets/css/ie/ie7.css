@@ -1,0 +1,101 @@
+*, *:before, *:after {
+	box-sizing:content-box; 
+  *behavior: url(/htc/boxsizing.htc);
+ }
+ 
+.container { 
+	width: 960px !important; 
+	max-width: 960px !important;
+	padding: 0;
+}
+
+.row { 
+	width: 100%;  
+	*zoom: 1; 
+	margin: 0 0 10px; 
+}
+
+.row [class*="col"] {
+   margin-left: 2.709239449864817%;
+   padding-left: 0;
+   padding-right: 0;
+}
+
+.row [class*="col"]:first-child { margin-left: 0 }
+
+/* Override for Center */
+.row [class*="col"].center { margin-left: auto; }
+
+.row .col12 { width: 100% }
+.row .col11 { width: 91.43646408839778% }
+.row .col10 { width: 82.87292817679558% }
+.row .col9 { width: 74.30939226519337% }
+.row .col8 { width: 65.74585635359117% }
+.row .col7 { width: 57.18232044198895% }
+.row .col6 { width: 48.61878453038674% }
+.row .col5 { width: 40.05524861878453% }
+.row .col4 { width: 31.491712707182323% }
+.row .col4:nth-child(3) { width: 31.491712707182323% !important; }
+.row .col3 { width: 22.92817679558011% }
+.row .col2 { width: 14.3646408839779% }
+.row .col1 { width: 5.801104972375691% }
+
+.row .row { margin: 10px 0 0 0; }
+
+#top h1 { padding: 10px 0 10px 0 !important;}
+
+#primary { display: block !important; width: 80%;}
+#primary ul { padding: 36px 0 0 !important; }
+#primary li { display: block; float: left; width: auto; }
+#show_menu { display: none !important;}
+
+#hero .bg {  min-height: 320px !important; } 
+#hero .home { min-height: 600px !important; } 
+#hero .text { top: 25% !Important; }
+#hero .text h1 { font-size: 64px !Important; line-height: 70px !important; }
+#hero .text p { font-size: 20px !important; line-height: 24px !important; }
+
+.main-heading h1{
+margin-top: 45px !important;
+font-size: 40px !important;
+line-height: 46px  !important; 
+}
+
+.main-heading p{
+font-size: 20px !important;
+line-height: 24px  !important; 
+}
+
+#footer .call-to-action ul  { 
+	width: 550px !important;
+}
+#footer .call-to-action ul  li {
+	width: 200px !important;
+	margin: 0 40px !important;
+	float: left !important;
+}
+
+#footer .bottom ul {
+	display: none !important;
+}
+
+.overlay {
+	background: transparent !important;
+	filter: alpha(opacity=100) !important;
+}
+
+#testimonial p.comment {
+	font-size: 34px !important;
+line-height: 47px !important; 
+}
+
+#paginationHolder ul li {
+	width: 20px !important;
+	display: block !important;
+	float: left !important;
+}
+
+.article {
+ 	border: none !important;
+ 	text-align: center;
+}
